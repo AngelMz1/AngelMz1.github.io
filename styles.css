@@ -1,0 +1,17 @@
+.confirmation{
+    display: grid;
+    place-items: center;
+    margin-top: 20%;
+    background: #6280e4;
+    width: 80%;
+    height: 30%;
+    margin-left: 10%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px #bcc7e4;
+}
+body{
+    width: 100%;
+    height: auto;
+    background: #1E40AF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
