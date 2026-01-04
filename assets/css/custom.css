@@ -1,0 +1,95 @@
+/* Estilos personalizados para el portafolio de Angel Muñoz */
+
+/* Mejoras en la tipografía */
+.sitename {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+/* Efectos hover para enlaces sociales */
+.social-links a {
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Animación para las barras de habilidades */
+.progress-bar {
+  transition: width 2s ease-in-out;
+}
+
+/* Mejora en las estadísticas */
+.stats-item {
+  text-align: center;
+  padding: 20px;
+}
+
+.stats-item .purecounter {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #3498db;
+}
+
+/* Estilo para los elementos de resume */
+.resume-item {
+  border-left: 3px solid #3498db;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.resume-item h4 {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.resume-item h5 {
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 2rem;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+  }
+}
+
+/* Mejoras en botones */
+.btn-custom {
+  background: linear-gradient(45deg, #3498db, #2980b9);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+}
+
+/* Estilo para destacar información de contacto */
+.contact-info {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* Animación de entrada suave */
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
