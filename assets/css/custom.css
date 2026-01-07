@@ -1,5 +1,33 @@
 /* Estilos personalizados para el portafolio de Angel Muñoz */
 
+/* Mejoras para destacar información clave */
+.hero .typed {
+  color: #18d26e;
+  font-weight: 600;
+}
+
+/* Estilo para el logo en el header */
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+/* Mejoras para la imagen hero */
+.hero-img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(0.7);
+  transition: filter 0.3s ease;
+}
+
+.hero-img:hover {
+  filter: brightness(0.8);
+}
+
 /* Mejoras en la tipografía */
 .sitename {
   font-weight: 700;
@@ -12,6 +40,7 @@
 }
 
 .social-links a:hover {
+  background: #18d26e;
   transform: translateY(-3px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
@@ -28,26 +57,70 @@
 }
 
 .stats-item .purecounter {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #3498db;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #18d26e;
+}
+
+.stats-item p {
+  font-weight: 600;
+  color: #333;
 }
 
 /* Estilo para los elementos de resume */
 .resume-item {
-  border-left: 3px solid #3498db;
+  border-left: 3px solid #18d26e;
   padding-left: 20px;
   margin-bottom: 30px;
 }
 
 .resume-item h4 {
-  color: #2c3e50;
+  color: #333;
   font-weight: 600;
 }
 
 .resume-item h5 {
-  color: #7f8c8d;
-  font-style: italic;
+  background: #18d26e;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Mejorar servicios */
+.services .service-item h3 {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.services .service-item .icon {
+  background: linear-gradient(45deg, #18d26e, #20c997);
+}
+
+.services .service-item .icon i {
+  color: white;
+  font-size: 2rem;
+}
+
+/* Destacar habilidades principales */
+.skills .progress .skill span:first-child {
+  font-weight: 600;
+}
+
+/* Mejorar títulos de currículum */
+.resume .resume-title {
+  color: #18d26e;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Destacar información de contacto */
+.about .content ul li strong {
+  color: #18d26e;
+  font-weight: 600;
 }
 
 /* Responsive improvements */
@@ -59,11 +132,20 @@
   .hero p {
     font-size: 1.1rem;
   }
+  
+  .stats-item .purecounter {
+    font-size: 2rem;
+  }
+  
+  .logo img {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 /* Mejoras en botones */
 .btn-custom {
-  background: linear-gradient(45deg, #3498db, #2980b9);
+  background: linear-gradient(45deg, #18d26e, #20c997);
   border: none;
   color: white;
   padding: 12px 30px;
@@ -73,7 +155,7 @@
 
 .btn-custom:hover {
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+  box-shadow: 0 5px 15px rgba(24, 210, 110, 0.4);
 }
 
 /* Estilo para destacar información de contacto */
